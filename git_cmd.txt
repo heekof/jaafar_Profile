@@ -1,0 +1,27 @@
+// same as git pull but dosen't merge
+git fetch origin
+// see branches
+ git branch
+// Merging from origin
+ git merge origin/master
+...
+
+// pushing to the origin
+git push origin
+
+
+############
+
+// Create branch feature 1
+
+git branch feature-1
+
+
+// Move between branches
+// We can also chekout to a commit
+
+git chekout feature-1
+
+
+// go to the n-th commit from the master
+git chechout master~n
